@@ -73,15 +73,15 @@ describe("Multiplicative persistence", () => {
     expect(received).toBe(expected);
   });
 
-  test("Returns 11 for -277777788888899", () => {
-    const received = multiplicativePersistence(-277777788888899);
-    const expected = 11;
-    expect(received).toBe(expected);
+  test("Returns an error for negative imput", () => {
+    const received = () => multiplicativePersistence(-277777788888899);
+    const expected = new Error("Number should be a positive initger");
+    expect(received).toThrowError(expected);
   });
 
   test("Returns an error for fractions", () => {
     const received = () => multiplicativePersistence(0.1);
-    const expected = new Error("Number is not an integer");
+    const expected = new Error("Number should be a positive initger");
     expect(received).toThrowError(expected);
   });
 });
