@@ -1,6 +1,8 @@
 # Multiplicative Persistence
 
-[![Build Status](https://travis-ci.com/pawelgrzybek/multiplicative-persistence.svg?branch=master)](https://travis-ci.com/pawelgrzybek/multiplicative-persistence)
+![Travis (.com)](https://img.shields.io/travis/com/pawelgrzybek/multiplicative-persistence.svg?style=for-the-badge)
+![NPM](https://img.shields.io/npm/l/multiplicative-persistence.svg?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/multiplicative-persistence.svg?style=for-the-badge)
 
 > Multiply all the digits of a number n by each other, repeating with the product until a single digit is obtained. The number of steps required is known as the **multiplicative persistence**, and the final digit obtained is called the **multiplicative digital root** of n.
 
