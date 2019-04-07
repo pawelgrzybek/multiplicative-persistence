@@ -1,6 +1,6 @@
 {
   "name": "multiplicative-persistence",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get multiplicative digital root of a given number",
   "main": "dist/multiplicativePersistence.js",
   "files": [
